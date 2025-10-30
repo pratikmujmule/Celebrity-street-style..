@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Celebrity & Street Style</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@400;700&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --bg: #fdfcfa;
+            --accent: #e63946;
+            --muted: #6b7280;
+            --text: #1f2937;
+            --card: #fff;
+            --shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            background-color: var(--bg);
+            color: var(--text);
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            background: linear-gradient(135deg, #e63946, #f1a7a7);
+            color: white;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.8em;
+            font-family: 'Playfair Display', serif;
+        }
+
+        header p {
+            font-size: 1.1em;
+            margin-top: 10px;
+        }
+
+        nav {
+            background-color: #f8dcdc;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 15px 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: var(--text);
+            font-weight: 600;
+        }
+
+        nav a:hover {
+            color: var(--accent);
+        }
+
+        section {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 30px;
+            background: var(--card);
+            box-shadow: var(--shadow);
+            border-radius: 12px;
+        }
+
+        h2 {
+            font-family: 'Playfair Display', serif;
+            color: var(--accent);
+            border-bottom: 2px solid #f8dcdc;
+            padding-bottom: 10px;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .gallery a {
+            display: inline-block;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .gallery img {
+            width: 280px;
+            height: 280px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .gallery a:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: var(--muted);
+            background: #fff4f4;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Celebrity & Street Style</h1>
+        <p>Explore iconic looks from stars and the streets around the world</p>
+    </header>
+
+    <nav>
+        <a href="#celebrity">Celebrity Style</a>
+        <a href="#street">Street Style</a>
+        <a href="#gallery">Gallery</a>
+    </nav>
+
+    <section id="celebrity">
+        <h2>Celebrity Fashion Moments</h2>
+        <div class="gallery">
+            <a href="https://www.google.com/search?q=celebrity+red+carpet+fashion&tbm=isch" target="_blank">
+                <img src="https://images.unsplash.com/photo-1544723795-3fb6469f5b39?auto=format&fit=crop&w=800&q=80"
+                    alt="Red Carpet Fashion">
+            </a>
+            <a href="https://www.google.com/search?q=celebrity+street+style&tbm=isch" target="_blank">
+                <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=800&q=80"
+                    alt="Celebrity Street Style">
+            </a>
+            <a href="https://www.google.com/search?q=runway+celebrity+looks&tbm=isch" target="_blank">
+                <img src="https://images.unsplash.com/photo-1542060742-9f15e5f2d221?auto=format&fit=crop&w=800&q=80"
+                    alt="Runway Look">
+            </a>
+        </div>
+    </section>
+
+    <section id="street">
+        <h2>Street Style Highlights</h2>
+        <div class="gallery">
+            <a href="https://www.google.com/search?q=modern+street+fashion&tbm=isch" target="_blank">
+                <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=800&q=80"
+                    alt="Modern Street Fashion">
+            </a>
+            <a href="https://www.google.com/search?q=urban+fashion+looks&tbm=isch" target="_blank">
+                <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=800&q=80"
+                    alt="Urban Fashion">
+            </a>
+            <a href="https://www.google.com/search?q=men+street+style&tbm=isch" target="_blank">
+                <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=800&q=80"
+                    alt="Men Street Style">
+            </a>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <h2>Trending Looks Gallery</h2>
+        <div class="gallery">
+            <a href="https://www.google.com/search?q=vintage+fashion+look&tbm=isch" target="_blank">
+                <img src="https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&w=800&q=80"
+                    alt="Vintage Fashion">
+            </a>
+            <a href="https://www.google.com/search?q=casual+street+outfit&tbm=isch" target="_blank">
+                <img src="https://images.unsplash.com/photo-1503342217505-b0a15d7f6b5d?auto=format&fit=crop&w=800&q=80"
+                    alt="Casual Street Outfit">
+            </a>
+            <a href="https://www.google.com/search?q=celebrity+airport+fashion&tbm=isch" target="_blank">
+                <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=800&q=80"
+                    alt="Airport Look">
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        © 2025 Celebrity & Street Style | Designed with passion for fashion
+    </footer>
+
+</body>
+
+</html>
